@@ -1,0 +1,208 @@
+/*共通のCSS*/
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #4ac0b9;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+	font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  color: #89949e;
+  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'  
+}
+
+header {
+	padding: 65px 0;
+	text-align: center;
+}
+
+
+
+/*syouten*/
+.main-category-wrapper {
+	margin-top: 50px; 
+	background-color: #f7f7f7;
+  text-align: center;
+}
+
+.maion-categories {
+	margin-top: 60px;
+}
+
+.main-category {
+  background: #2e8b57;
+  float: left;
+  width: 25%;
+}
+
+.category-icon {
+	position: relative;
+}
+
+.category-icon p {
+	position: absolute;
+	top: 90px;
+  width: 100%;
+}
+
+.btn {
+  text-decoration: none;
+  background: #f7f7f7;
+  color: #f59a00;
+  display: block;
+  width: 140px;
+  line-height: 44px;
+  margin: 20px auto 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #b3aeb5;
+}
+/*syouten*/
+
+
+
+.category-wrapper h1 {
+  margin: 50px 0;
+  text-align: center;
+  /*color: #dc143c;*/
+  color: #808000;
+}
+
+.categories {
+  text-align: center;
+}
+
+.caegory {
+  text-align: center;
+}
+
+.category {
+  display: inline-block;
+  width: 45%;
+  padding: 20px;
+  margin-top: 40px;
+  background: #e6e6fa;
+}
+
+.item-name {
+  text-align: center;
+  color: #2f4f4f;
+}
+
+.item-price {
+  margin: 15px 0;
+  font-size: 18px;
+  color: #808000;
+  text-align: center;
+}
+
+.item-ordercount {
+  margin: 15px 0;
+  font-size: 18px;
+  color: #808000;
+  text-align: center;
+}
+
+.category input {
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    width: 60px;
+    font-size: 14px;
+    }
+
+.btn-area {
+  margin: 60px 5px;
+}
+
+input[type="submit"] {
+  background: #e0505c;
+  border: none;
+  color: white;
+  font-size:17px;
+  font-weight:bold;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+
+input[type="reset"]{
+  background: #aaa;
+  border: none;
+  color: white;
+  font-size:17px;
+  font-weight:bold;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+
+/*注文確認*/
+.order-container {
+  text-align: center;
+  background-color: #f8f8f8;
+  line-height: 2;
+  letter-spacing: 0.1em;
+  width: 600px;
+  margin: 60px auto;
+  padding: 20px 0px 30px;
+}
+
+table {
+  width: 600px;
+  border-collapse: collapse;
+   margin: auto;
+}
+
+table tbody {
+  width: 600px;
+}
+
+table th, table td {
+  width: 200px;
+  border: solid 1px black;
+  padding: 4px;
+}
+
+
+/*在庫入庫*/
+
+input {
+  border: none;
+  outline: none;
+  font-size: 15px;
+  padding: 0;
+  line-height: 20px;
+  text-align: right;
+}
